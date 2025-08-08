@@ -7,12 +7,26 @@ function Nav() {
       <div class="flex justify-between h-16 items-center">
         <div class="text-xl font-bold text-black-600">PW Skill</div>
         <div class="space-x-4 hidden md:flex">
+        
+   
+
           <a href="/home" class="text-gray-700 hover:text-blue-600">Home</a>
           <a href="/movie" class="text-gray-700 hover:text-blue-600">Courses</a>
           <a href="#" class="text-gray-700 hover:text-blue-600"> Resources</a>
           <a href="#" class="text-gray-700 hover:text-blue-600">Quizzes</a>
           <a href="#" class="text-gray-700 hover:text-blue-600">Assignments</a>
-           <a href="/userLogin" class="text-gray-700 hover:text-blue-600">Login</a>
+           <div class="search-container">
+    <input
+  type="text"
+  id="searchInput"
+  placeholder="Search items..."
+  class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+/>
+  {/* Search bar */}
+    <ul id="resultsList"></ul></div>
+<a href="/userLogin" className="text-gray-700 hover:text-blue-600 border border-gray-300 rounded px-4 py-2 transition-colors duration-200">
+  Login
+</a>
 
         </div>
       </div>
