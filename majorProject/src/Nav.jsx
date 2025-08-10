@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Nav() {
+const CourseDwon=()=>{
+  
+}
   return (
       <nav class="bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,10 +14,10 @@ function Nav() {
    
 
           <a href="/home" class="text-gray-700 hover:text-blue-600">Home</a>
-          <a href="/movie" class="text-gray-700 hover:text-blue-600">Courses</a>
-          <a href="#" class="text-gray-700 hover:text-blue-600"> Resources</a>
-          <a href="#" class="text-gray-700 hover:text-blue-600">Quizzes</a>
-          <a href="#" class="text-gray-700 hover:text-blue-600">Assignments</a>
+          <a href="/movie" class="text-gray-700 hover:text-blue-600">Courses </a>
+          <a href="/music" class="text-gray-700 hover:text-blue-600"> Resources</a>
+          <a href="/serial" class="text-gray-700 hover:text-blue-600">Quizzes</a>
+          <a href="/sports" class="text-gray-700 hover:text-blue-600">Assignments</a>
            <div class="search-container">
     <input
   type="text"
@@ -24,7 +27,7 @@ function Nav() {
 />
   {/* Search bar */}
     <ul id="resultsList"></ul></div>
-<a href="/userLogin" className="text-gray-700 hover:text-blue-600 border border-gray-300 rounded px-4 py-2 transition-colors duration-200">
+<a href="/userLogin" className="text-blue-700   border border-blue-500 rounded px-4 py-2 transition-colors duration-200">
   Login
 </a>
 

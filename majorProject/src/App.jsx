@@ -9,6 +9,9 @@ import Music from './component/music';
 import Sports from './component/Sports';
 import Home from './component/Home';
 import UserLogin from "./User.jsx/UserLogin";
+import Signup from "./User.jsx/Signup";
+
+
 
 
 
@@ -33,6 +36,7 @@ function App() {
           <Route path="/userLogin" element={<UserLogin />} />
 
         </Routes>
+        <Signup/>
 
         <Footer />
       </>
