@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Serial() {
-  return (
-    <div>Serial</div>
+  return 
+
+ (
+    <><h1>h</h1></>
+
   )
 }
 

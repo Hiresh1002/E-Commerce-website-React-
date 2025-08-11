@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 
 function Nav() {
-const CourseDwon=()=>{
-  
-}
+
   return (
       <nav class="bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,13 +12,18 @@ const CourseDwon=()=>{
    
 
           <a href="/home" class="text-gray-700 hover:text-blue-600">Home</a>
-        <select  name="courseType" className="text-gray-700 hover:text-blue-600 ">
-  <option value="online">Online Courses</option>
+{/* 
+<select  class="text-gray-700 hover:text-blue-600  -mt-4">
+  <option value="online"><a href="/Course">Online Courses</a></option>
   <option value="offline">Offline Courses</option>
-</select>
-          <a href="/music" class="text-gray-700 hover:text-blue-600"> Resources</a>
-          <a href="/serial" class="text-gray-700 hover:text-blue-600">Quizzes</a>
-          <a href="/sports" class="text-gray-700 hover:text-blue-600">Assignments</a>
+</select> */}
+
+<a href="/Course" class="text-gray-700 hover:text-blue-600">Course</a>
+
+<a href="/music" class="text-gray-700 hover:text-blue-600">Resources</a>
+<a href="/serial" class="text-gray-700 hover:text-blue-600">Quizzes</a>
+<a href="/sports" class="text-gray-700 hover:text-blue-600">Assignments</a>
+
            <div class="search-container">
     <input
   type="text"
@@ -30,7 +33,7 @@ const CourseDwon=()=>{
 />
   {/* Search bar */}
     <ul id="resultsList"></ul></div>
-<a href="/userLogin" className="text-blue-700   border border-blue-500 rounded px-4 py-2 transition-colors duration-200">
+<a href="/Signup" className="text-blue-700   border border-blue-500 rounded px-4 py-2 transition-colors duration-200">
   Login
 </a>
 

@@ -10,6 +10,7 @@ import Sports from './component/Sports';
 import Home from './component/Home';
 import UserLogin from "./User.jsx/UserLogin";
 import Signup from "./User.jsx/Signup";
+import Course from "./User.jsx/Course";
 
 
 
@@ -33,10 +34,13 @@ function App() {
           <Route path="/movie" element={<Movie />} />
           <Route path="/music" element={<Music />} />
           <Route path="/sports" element={<Sports />} />
-          <Route path="/userLogin" element={<UserLogin />} />
+          <Route path="/Signup" element={<Signup/>} />
+          <Route path="/userLogin" element={<UserLogin/>} />
+          <Route path="/Course" element={<Course/>} />
+
+
 
         </Routes>
-        <Signup/>
 
         <Footer />
       </>
