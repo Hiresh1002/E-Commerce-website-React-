@@ -14,7 +14,10 @@ const CourseDwon=()=>{
    
 
           <a href="/home" class="text-gray-700 hover:text-blue-600">Home</a>
-          <a href="/movie" class="text-gray-700 hover:text-blue-600">Courses </a>
+        <select  name="courseType" className="text-gray-700 hover:text-blue-600 ">
+  <option value="online">Online Courses</option>
+  <option value="offline">Offline Courses</option>
+</select>
           <a href="/music" class="text-gray-700 hover:text-blue-600"> Resources</a>
           <a href="/serial" class="text-gray-700 hover:text-blue-600">Quizzes</a>
           <a href="/sports" class="text-gray-700 hover:text-blue-600">Assignments</a>
