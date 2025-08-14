@@ -1,11 +1,17 @@
 {
-    "user":[
-        {
-            "id":1,
-            "name":"suresh",
-            "email":"suresh@gmail.com",
-            "password":"12345",
-            "mobile":"739473979"
-        }
-    ]
+  "user": [
+    {
+      "id": "1",
+      "name": "suresh",
+      "email": "suresh@gmail.com",
+      "password": "12345",
+      "mobile": "739473979"
+    },
+    {
+      "id": "9b08",
+      "Name": "simran khan",
+      "Email": "simran@gmail.com",
+      "Password": "1226516"
+    }
+  ]
 }

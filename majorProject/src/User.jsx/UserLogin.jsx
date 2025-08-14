@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 function UserLogin() {
@@ -64,18 +65,7 @@ const [email, setEmail] = useState("");
         </p>
       </div>
 
-      {/* Animation Style */}
-      <style>
-        {`
-          @keyframes fadeIn {
-            0% { opacity: 0; transform: scale(0.95); }
-            100% { opacity: 1; transform: scale(1); }
-          }
-          .animate-fadeIn {
-            animation: fadeIn 0.6s ease-out forwards;
-          }
-        `}
-      </style>
+      
     </div>
 
 
