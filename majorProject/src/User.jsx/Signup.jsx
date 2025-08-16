@@ -1,10 +1,10 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Signup() {
   let api_url = "http://localhost:3000/user";
-
+const navigate=useNavigate()
   const [userdata, setUserdata] = useState({
     Name: "",
     Email: "",
@@ -15,32 +15,31 @@ function Signup() {
     const { name, value } = e.target;
     setUserdata((prev) => ({ ...prev, [name]: value }));
   };
-
-  const SaveData = async (e) => {
-    e.preventDefault();
-    try {
-      // Get existing users
-      let res = await axios.get(api_url);
-      let users = res.data;
-
-      // Check if email already exists
-      if (users.find((u) => u.Email === userdata.Email)) {
-        alert("Email already registered. Please use a different email.");
-        return;
-      }
-
-      // Save new user
-      await axios.post(api_url, userdata);
-      alert("Signup successful!");
-      
-      // Optionally clear form
-      setUserdata({ Name: "", Email: "", Password: "" });
-      
-    } catch (err) {
-      console.error("Error saving data:", err);
-      alert("Something went wrong. Please try again.");
+ const SaveData=async(e)=>{
+        e.preventDefault();
+        try {
+            let res=await axios.get(api_url);
+            let response=res.data;
+            if(response.find((u)=>u.email===userData.email))
+            {
+              //alert("email exist")
+              toast.info("Email already in use",{
+                position:"top-center",
+                theme:"dark"
+              })
+              navigate('/LoginUser')
+              return
+            }
+            await axios.post(api_url,userData);
+            toast.success("Signup successfully",{
+                position:"top-center",
+                theme:"dark"
+              })
+              navigate('/LoginUser')
+        } catch (error) {
+            console.log(error)
+        }
     }
-  };
 
   return (
     <>

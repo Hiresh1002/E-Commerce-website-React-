@@ -1,40 +1,39 @@
-import React from 'react'
-import  { useState } from "react";
+import { useState } from "react";
 
-const categories = ["All",  "Online Courses", "E-books", "video Class Notes"];
+// const categories = ["All",  "Online Courses", "E-books", "video Class Notes"];
 
-const resources = [
-  {
-    title: "Effective Teaching Strategies",
-    category: "Books",
-    description: "A guide to innovative methods for effective classroom teaching.",
-    link: "#",
-  },
-  {
-    title: "Introduction to AI in Education",
-    category: "Online Courses",
-    description: "Learn how AI can enhance personalized learning experiences.",
-    link: "#",
-  },
-  {
-    title: "Education Reform Research 2025",
-    category: "Research Papers",
-    description: "An in-depth look at policy changes and their impact on schools.",
-    link: "#",
-  },
-  {
-    title: "Khan Academy",
-    category: "Tools",
-    description: "Free online lessons and practice in math, science, and more.",
-    link: "https://khanacademy.org",
-  },
-  {
-    title: "Digital Literacy for Teachers",
-    category: "Books",
-    description: "A comprehensive book on technology integration in classrooms.",
-    link: "#",
-  },
-];
+// const resources = [
+//   {
+//     title: "Effective Teaching Strategies",
+//     category: "Books",
+//     description: "A guide to innovative methods for effective classroom teaching.",
+//     link: "#",
+//   },
+//   {
+//     title: "Introduction to AI in Education",
+//     category: "Online Courses",
+//     description: "Learn how AI can enhance personalized learning experiences.",
+//     link: "#",
+//   },
+//   {
+//     title: "Education Reform Research 2025",
+//     category: "Research Papers",
+//     description: "An in-depth look at policy changes and their impact on schools.",
+//     link: "#",
+//   },
+//   {
+//     title: "Khan Academy",
+//     category: "Tools",
+//     description: "Free online lessons and practice in math, science, and more.",
+//     link: "https://khanacademy.org",
+//   },
+//   {
+//     title: "Digital Literacy for Teachers",
+//     category: "Books",
+//     description: "A comprehensive book on technology integration in classrooms.",
+//     link: "#",
+//   },
+// ];
 function music() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -54,7 +53,7 @@ function music() {
       </header>
 
       {/* Category Filter */}
-      <div className="flex flex-wrap justify-center gap-3 mb-8">
+      {/* <div className="flex flex-wrap justify-center gap-3 mb-8">
         {categories.map((cat, idx) => (
           <button
             key={idx}
@@ -68,7 +67,7 @@ function music() {
             {cat}
           </button>
         ))}
-      </div>
+      </div> */}
 
       {/* Resources Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
