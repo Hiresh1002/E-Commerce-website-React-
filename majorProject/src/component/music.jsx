@@ -53,7 +53,7 @@ function music() {
       </header>
 
       {/* Category Filter */}
-      {/* <div className="flex flex-wrap justify-center gap-3 mb-8">
+      <div className="flex flex-wrap justify-center gap-3 mb-8">
         {categories.map((cat, idx) => (
           <button
             key={idx}
@@ -67,7 +67,7 @@ function music() {
             {cat}
           </button>
         ))}
-      </div> */}
+      </div>
 
       {/* Resources Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
