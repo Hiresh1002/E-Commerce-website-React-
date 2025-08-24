@@ -1,16 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ToastContainer, toast } from 'react-toastify';
+import { Route, Routes } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
-import React from 'react';
-import Nav from './Nav';
-import Footer from './Footer';
+import Home from './component/Home';
 import Movie from './component/Movie';
 import Music from './component/music';
 import Sports from './component/Sports';
-import Home from './component/Home';
-import UserLogin from "./User.jsx/UserLogin";
+import Footer from './Footer';
+import Nav from './Nav';
 import Signup from "./User.jsx/Signup";
-import Course from "./User.jsx/Course";
+import UserLogin from "./User.jsx/UserLogin";
 
 
 
@@ -36,7 +33,6 @@ function App() {
           <Route path="/sports" element={<Sports />} />
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/userLogin" element={<UserLogin/>} />
-          <Route path="/Course" element={<Course/>} />
 
 
 
