@@ -31,8 +31,7 @@ function App() {
           <Route path="/movie" element={<Movie />} />
           <Route path="/music" element={<Music />} />
           <Route path="/sports" element={<Sports />} />
-          <Route path="/Signup" element={<Signup/>} />
-          <Route path="/userLogin" element={<UserLogin/>} />
+          {/* <Route path="/Signup" element={<Signup/>} /> */}
 
 
 
