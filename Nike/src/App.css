@@ -1,0 +1,62 @@
+/*  Navbar 1 */
+
+.firstnavbar{
+    position: relative;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    height: 40px;
+    justify-content: end;
+    gap: 20px;
+    list-style: none;
+    background-color: #a4a0a030;
+    text-align: center;
+}
+.Jordan{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -1020px;
+    top: -20px;
+    width: 20px;
+
+
+}
+
+/* Navbar2 Style */
+.Secondnavbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.SiNike{
+       color: rgb(0, 0, 0);
+    position: relative;
+    left: -220px;
+    top: -20px;
+    width: 200px;
+    height: 20px;
+}
+.right_icons{
+    position: relative;
+    right: -160px;
+    display: flex;
+    gap: 20px;
+}
+.Search_icons{
+    width: 150px;
+padding-left: 17px; 
+
+border-radius: 50px;
+    height: 40px;
+    position: relative;
+    background-color: #a4a0a030;
+}
+.icons h3{
+        position: relative;
+left: 30px;
+top: -45px;
+letter-spacing: 2.2px;
+}
