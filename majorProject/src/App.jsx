@@ -27,11 +27,11 @@ function App() {
         {/* <ToastContainer /> */}
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} />
           <Route path="/movie" element={<Movie />} />
           <Route path="/music" element={<Music />} />
           <Route path="/sports" element={<Sports />} />
-          {/* <Route path="/Signup" element={<Signup/>} /> */}
+          <Route path="/Signup" element={<Signup/>} /> */}
 
 
 
