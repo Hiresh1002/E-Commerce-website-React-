@@ -7,17 +7,24 @@ function Nav2(){
     return(<>
     
     <ol className="Secondnavbar"> <h1 className="SiNike"> <SiNike /></h1>
- <select className="dropdown">
-           
-          </select>|
-    <li>Men</li>
+    <li>
+        <details className="drop1"><summary >New & Featured</summary>
+     {/* <li>New & Upcoming Drops</li>
+    <li>New Arrivals</li>
+    <li>Bestsellers</li>
+    <li>SNKRS Launch Calendar</li>
+    <li>Customise with Nike By You</li>
+    <li>Jordan</li>
+    
+    </details></li>
+    <li>Men</li>0
     <li>Women</li>
     <li>Kids</li>
     <li>Sale</li>
-    <li>SNKRS</li>
+    <li>SNKRS</li> */}
     <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
-    <p className="i_cart"><FaRegHeart /></p>
-    <p className="i_bag"> <SlHandbag /></p>
+    <p><FaRegHeart /></p>
+    <p> <SlHandbag /></p>
     
     </div>
 
@@ -25,7 +32,7 @@ function Nav2(){
 
     </ol>
 <div className="Offer_tag">
-<dd>New Styles On Sale: Up To 40% Off <br />
+<dd   className="Offer_heilight">New Styles On Sale: Up To 40% Off <br />
      Shop All Our New Markdowns</dd>
 
 </div>

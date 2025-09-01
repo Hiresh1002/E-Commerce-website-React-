@@ -19,8 +19,8 @@ function Nav1(){
             <option value="sale">Terms of Sale</option>
             <option value="use">Terms of Use</option>
             <option value="feedback">Send Us Feedback</option>
-          </select>|
-        </li>
+          </select>
+        </li>|
         <li>Join Us</li>|
         <li>Sign In</li>
       </ul>

@@ -13,6 +13,7 @@
     text-align: center;
 }
 .firstnavbar :hover{
+    
     color: rgb(167, 163, 163);
 }
 .dropdown {
@@ -43,6 +44,11 @@
     gap: 30px;
 
 }
+/* .Secondnavbar  li:hover{
+   text-decoration: underline;
+
+} */
+
 
 .SiNike{
        color: rgb(0, 0, 0);
@@ -97,7 +103,23 @@ letter-spacing: 2.2px;
 text-align: center;
 
 }
-.Offer_tag :hover{
-    text-decoration: underline;
+
+
+.Offer_heilight:hover{
   color: #0737f8;
+  cursor: pointer;
+}
+
+
+details summary {
+  list-style: none;       /* removes marker in Firefox */
+  cursor: pointer;        /* optional: make it still look clickable */
+}
+details li :hover {
+    background-color: #510e0e;
+}
+
+
+details summary::-webkit-details-marker {
+  display: none;          /* removes marker in Chrome, Safari, Edge */
 }
