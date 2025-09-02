@@ -1,6 +1,7 @@
-import { SiNike } from "react-icons/si";
+import { FaRegHeart } from "react-icons/fa";
 import { RiSearch2Line } from "react-icons/ri";
-import { FaRegHeart } from "react-icons/fa"; import { SlHandbag } from "react-icons/sl";
+import { SiNike } from "react-icons/si";
+import { SlHandbag } from "react-icons/sl";
 
 
 function Nav2(){
@@ -9,7 +10,7 @@ function Nav2(){
     <ol className="Secondnavbar"> <h1 className="SiNike"> <SiNike /></h1>
     <li>
         <details className="drop1"><summary >New & Featured</summary>
-     {/* <li>New & Upcoming Drops</li>
+     <li>New & Upcoming Drops</li>
     <li>New Arrivals</li>
     <li>Bestsellers</li>
     <li>SNKRS Launch Calendar</li>
@@ -21,7 +22,7 @@ function Nav2(){
     <li>Women</li>
     <li>Kids</li>
     <li>Sale</li>
-    <li>SNKRS</li> */}
+    <li>SNKRS</li> 
     <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
     <p><FaRegHeart /></p>
     <p> <SlHandbag /></p>
