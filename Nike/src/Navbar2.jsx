@@ -15,14 +15,14 @@ function Nav2(){
     <li>Bestsellers</li>
     <li>SNKRS Launch Calendar</li>
     <li>Customise with Nike By You</li>
-    <li>Jordan</li>
+    <li>Jordan</li>s
     
     </details></li>
-    {/* <li>Men</li>0
+    <li>Men</li>0
     <li>Women</li>
     <li>Kids</li>
     <li>Sale</li>
-    <li>SNKRS</li>  */}
+    <li>SNKRS</li> 
     <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
     <p><FaRegHeart /></p>
     <p> <SlHandbag /></p>
