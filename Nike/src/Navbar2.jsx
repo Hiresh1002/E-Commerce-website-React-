@@ -32,11 +32,11 @@ function Nav2(){
 
 
     </ol>
-<div className="Offer_tag">
+{/* <div className="Offer_tag">
 <dd   className="Offer_heilight">New Styles On Sale: Up To 40% Off <br />
      Shop All Our New Markdowns</dd>
 
-</div>
+</div> */}
     
     </>)
 }
