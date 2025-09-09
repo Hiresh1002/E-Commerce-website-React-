@@ -1,7 +1,4 @@
-import { FaRegHeart } from "react-icons/fa";
-import { RiSearch2Line } from "react-icons/ri";
 import { SiNike } from "react-icons/si";
-import { SlHandbag } from "react-icons/sl";
 
 
 function Nav2(){
@@ -23,20 +20,20 @@ function Nav2(){
     <li>Kids</li>
     <li>Sale</li>
     <li>SNKRS</li> 
-    <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
+    {/* <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
     <p><FaRegHeart /></p>
     <p> <SlHandbag /></p>
     
-    </div>
+    </div> */}
 
 
 
     </ol>
-{/* <div className="Offer_tag">
+<div className="Offer_tag">
 <dd   className="Offer_heilight">New Styles On Sale: Up To 40% Off <br />
      Shop All Our New Markdowns</dd>
 
-</div> */}
+</div>
     
     </>)
 }
