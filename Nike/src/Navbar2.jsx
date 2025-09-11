@@ -20,11 +20,11 @@ function Nav2(){
     <li>Kids</li>
     <li>Sale</li>
     <li>SNKRS</li> 
-    {/* <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
+    <div className="right_icons"><span className="Search_icons"> <p  className="icons"><  RiSearch2Line /> <h3>Search</h3></p></span>
     <p><FaRegHeart /></p>
     <p> <SlHandbag /></p>
     
-    </div> */}
+    </div>
 
 
 
